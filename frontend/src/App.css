@@ -30,3 +30,9 @@
     transform: rotate(360deg);
   }
 }
+
+.App-text {
+  color: blue;
+  font-weight: bold;
+  font-size: x-large;
+}

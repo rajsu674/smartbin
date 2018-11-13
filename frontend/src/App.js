@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import './App.css';
 
 class App extends Component {
-  render() {
+  render() {    
     return (
       <div>
         <header className="App-header">
-          <p style = { {color: '#000'}}>Practicing AWS in React</p>
+          <p className = 'App-text'>Practicing AWS in React</p>
         </header>
       </div>
     );
