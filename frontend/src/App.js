@@ -6,7 +6,7 @@ class App extends Component {
     return (
       <div>
         <header className="App-header">
-          <p className = 'App-text'>Practicing AWS in React</p>
+          <p className = 'App-text'>Practicing AWS in React...</p>
         </header>
       </div>
     );
