@@ -1,5 +1,5 @@
 {
-  "host": "localhost",
+  "host": "ct-mysql.cmtgupo4fir2.us-east-2.rds.amazonaws.com",
   "port": 8081,
   "public": "../public/",
   "paginate": {
@@ -7,13 +7,13 @@
     "max": 50
   },
   "mysql": {
-    "client": "mysql2",
+    "client": "mysql",
     "connection": {
-      "host": "localhost",
+      "host": "ct-mysql.cmtgupo4fir2.us-east-2.rds.amazonaws.com",
       "port": 3306,
-      "user": "root",
-      "password": "root",
-      "database": "smartbin"
+      "user": "ct",
+      "password": "cybercom",
+      "database": "ct_rds"
     },
     "seeds": {
       "directory": "../seeds/local"

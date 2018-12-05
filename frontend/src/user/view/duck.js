@@ -17,7 +17,6 @@ const reducer = handleActions(
       return { ...state, users: []};
     },
     [getUserResponse](state, action) {
-      console.log(action);
         if (action.error) {
             return { ...state, error: action.payload };
         } else if (action.payload) {

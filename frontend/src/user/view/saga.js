@@ -4,14 +4,13 @@ import user from './';
 
 function* getRegisteredUser(action) {
   try {
-  /*   const list = yield fetch(
-      `/api/users/`,
+     const list = yield fetch(
+      'http://18.217.83.196:8081/api/users',
       {
         method: 'GET',
       },
     ).then(response => response.json());
-*/
-  const list= [{id: 1, role: 'operator'}, {id: 2, role: 'collector'}];
+
     yield put(user.actions.getUserResponse(list));
   } catch (e) {
     yield put(
