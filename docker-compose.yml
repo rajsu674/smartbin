@@ -1,0 +1,12 @@
+version: '3'
+services:
+  smartbin-server:
+    build: ./backend/server
+    ports:
+      - "8083:8081"
+  smartbin-client:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - smartbin-server
